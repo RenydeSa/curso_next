@@ -1,6 +1,14 @@
+import Navbar from "../../../components/Navbar";
+
 export default function Bluepants(){
     return(
-        <h1> Calça Azul - R$100,00 </h1>
+        <>
+            <div>
+                <Navbar />
+            </div>
+
+            <h1> Calça Azul - R$100,00 </h1>
+        </>
     );
 
 }
