@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import Link from "next/link";
 export default function Products(){
     return(
@@ -34,6 +35,10 @@ export default function Products(){
                         Voltar para Home
                     </Link>
                 </button>
+            </div>
+
+            <div>
+                <Footer/>
             </div>
         </>
         

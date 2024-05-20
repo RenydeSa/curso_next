@@ -1,4 +1,5 @@
 import Navbar from "../../../components/Navbar";
+import Footer from "../../components/Footer";
 
 export default function Bluepants(){
     return(
@@ -8,6 +9,10 @@ export default function Bluepants(){
             </div>
 
             <h1> Calça Azul - R$100,00 </h1>
+
+            <div>
+                <Footer />
+            </div>
         </>
     );
 
