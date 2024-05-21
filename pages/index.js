@@ -9,6 +9,9 @@ export default function Home(){
         </div>
 
         <h1> Página Inicial </h1>
+        <video controls>
+          <source src="video_ica.mp4" type="video/mp4" />
+        </video>
 
 
         <div>
